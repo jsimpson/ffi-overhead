@@ -30,7 +30,7 @@ def run(count)
     x = Hello::C.plusone(x)
   end
 
-  put "#{Hello::C.current_timestamp - start}"
+  puts "#{Hello::C.current_timestamp - start}"
 end
 
 run(500000000)
